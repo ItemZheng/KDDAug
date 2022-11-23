@@ -33,8 +33,6 @@ unzip data/v2_Annotations_Val_mscoco.zip -d data
 rm data/v2_Annotations_Val_mscoco.zip
 
 
-
-
-
-
-
+# Download faster-rcnn vocab
+wget https://raw.githubusercontent.com/peteanderson80/bottom-up-attention/master/data/genome/1600-400-20/attributes_vocab.txt -P faster_rcnn_vocabs/
+wget https://raw.githubusercontent.com/peteanderson80/bottom-up-attention/master/data/genome/1600-400-20/objects_vocab.txt -P faster_rcnn_vocabs/

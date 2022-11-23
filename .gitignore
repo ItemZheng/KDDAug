@@ -1,2 +1,6 @@
 data/*
 __pycache__/*
+faster_rcnn_vocabs/*
+aug_data/*
+logs/*
+Images/*
